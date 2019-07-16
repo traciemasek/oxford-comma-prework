@@ -1,6 +1,6 @@
 def oxford_comma(array)
   last_el = array.pop
-  if array.length == 1 
+  if array.size == 1 
     return array.to_s
   elsif array.length == 2 
     return array.join(" and ")
